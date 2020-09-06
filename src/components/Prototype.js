@@ -18,13 +18,6 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "30px",
     color: "#2091F9",
   },
-  btnBuy: {
-    padding: "10px 20px",
-    backgroundColor: "white",
-    borderRadius: "50px",
-    color: "#2091F9",
-    marginRight: "10px",
-  },
   btnTry: {
     padding: "10px 20px",
     borderRadius: "50px",
@@ -58,7 +51,17 @@ export default function Features() {
             </Typography>
           </Box>
           <Box my={10}>
-            <Button className={classes.btnBuy}>Buy Now</Button>
+            <Button
+              style={{
+                padding: "10px 20px",
+                backgroundColor: "white",
+                borderRadius: "50px",
+                color: "#2091F9",
+                marginRight: "10px",
+              }}
+            >
+              Buy Now
+            </Button>
             <Button className={classes.btnTry}>Try For Free</Button>
           </Box>
         </Box>

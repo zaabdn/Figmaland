@@ -28,13 +28,6 @@ const useStyles = makeStyles((theme) => ({
     margin: "0 15px",
     color: "white",
   },
-  btnSubscribe: {
-    padding: "10px 20px",
-    margin: "10px",
-    background: "white",
-    color: "#2091F9",
-    borderRadius: "25px",
-  },
 }));
 
 export default function Header() {
@@ -81,7 +74,17 @@ export default function Header() {
           />
         </Box>
         <Box justifyContent="center">
-          <Button className={classes.btnSubscribe}>Subscribe</Button>
+          <Button
+            style={{
+              padding: "10px 20px",
+              margin: "10px",
+              background: "white",
+              color: "#2091F9",
+              borderRadius: "25px",
+            }}
+          >
+            Subscribe
+          </Button>
         </Box>
       </Box>
     </div>
