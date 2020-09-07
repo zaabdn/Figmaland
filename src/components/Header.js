@@ -1,6 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Button, CssBaseline, Box } from "@material-ui/core";
-import { lightBlue } from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
   root: {
